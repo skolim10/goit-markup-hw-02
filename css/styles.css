@@ -1,3 +1,79 @@
+.header {
+  background-color: #ffffff;
+  color: #212121;
+}
+.header-info {
+  height: 600px;
+  width: 1600px;
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  top: 50%;
+}
+.footer {
+  height: 252px;
+  width: 1600px;
+  background-color: #2f303a;
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer ul {
+  color: rgba(255, 255, 255, 0.6);
+}
+.main-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font: "Roboto";
+}
+.portfolio-button button {
+  background-color: #f5f4fa;
+  color: #212121;
+  font: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+}
+.portfolio-button button:hover,
+.portfolio-button button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  font: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.menu {
+  font: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+.menu a:hover,
+.menu a:focus {
+  font: "Roboto";
+  font-weight: 500;
+  color: #2196f3;
+  cursor: pointer;
+  text-decoration: none;
+}
+.menu a {
+  font: "Roboto";
+  font-weight: 500;
+  color: #212121;
+  text-decoration: none;
+}
+.contact a {
+  color: #757575;
+  font-size: 14px;
+  text-decoration: none;
+}
+.contact a:hover,
+.contact a:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
 body {
-  background-color: aqua;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #212121;
 }
