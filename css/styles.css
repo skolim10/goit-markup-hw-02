@@ -1,52 +1,39 @@
+:root {
+  --header-background: #2f303a;
+  --footer-background: #2f303a;
+  --menu-background: #ffffff;
+  --button-hover-bg: #2196f3;
+  --main-background: #ffffff;
+  --main-text: #212121;
+}
+.logo {
+  font: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+}
+.logo-begin {
+  color: #2196f3;
+}
 .header {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--menu-background);
 }
 .header-info {
   height: 600px;
-  width: 1600px;
-  background-color: #2f303a;
+  width: auto;
+  background-color: var(--header-background);
   color: #ffffff;
   text-align: center;
   font-weight: 900;
+  line-height: 1.36;
   top: 50%;
 }
-.footer {
-  height: 252px;
-  width: 1600px;
-  background-color: #2f303a;
-  color: #ffffff;
-  font-size: 14px;
-}
-.footer ul {
-  color: rgba(255, 255, 255, 0.6);
-}
-.main-button {
-  background-color: #2196f3;
-  color: #ffffff;
-  font: "Roboto";
-}
-.portfolio-button button {
-  background-color: #f5f4fa;
-  color: #212121;
-  font: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-}
-.portfolio-button button:hover,
-.portfolio-button button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-  font: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  cursor: pointer;
+.header-info h1 {
+  vertical-align: middle;
 }
 .menu {
   font: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  color: #212121;
 }
 .menu a:hover,
 .menu a:focus {
@@ -59,8 +46,42 @@
 .menu a {
   font: "Roboto";
   font-weight: 500;
-  color: #212121;
   text-decoration: none;
+  color: #212121;
+}
+.menu li {
+  display: inline;
+}
+.footer {
+  height: 252px;
+  width: auto;
+  background-color: var(--footer-background);
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer ul {
+  color: rgba(255, 255, 255, 0.6);
+}
+.main-button {
+  background-color: #2196f3;
+  color: #ffffff;
+  font: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+}
+.portfolio-button button {
+  background-color: #f5f4fa;
+  font: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+}
+.portfolio-button button:hover,
+.portfolio-button button:focus {
+  background-color: var(--button-hover-bg);
+  color: #ffffff;
+  font: "Roboto";
+  font-weight: 500;
+  cursor: pointer;
 }
 .contact a {
   color: #757575;
@@ -72,8 +93,20 @@
   color: #2196f3;
   text-decoration: none;
 }
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-size: 44px;
+  line-height: 1.36;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
 body {
   font-family: "Roboto";
   font-size: 16px;
-  color: #212121;
+  color: var(--main-text);
+  background-color: var(--main-background);
 }
