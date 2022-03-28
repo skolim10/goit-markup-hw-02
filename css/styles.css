@@ -35,17 +35,7 @@
   font-weight: 500;
   font-size: 14px;
 }
-.menu a:hover,
-.menu a:focus {
-  font: "Roboto";
-  font-weight: 500;
-  color: #2196f3;
-  cursor: pointer;
-  text-decoration: none;
-}
 .menu a {
-  font: "Roboto";
-  font-weight: 500;
   text-decoration: none;
   color: #212121;
 }
@@ -59,8 +49,16 @@
   color: #ffffff;
   font-size: 14px;
 }
-.footer ul {
+.footer a {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.menu a:hover,
+.menu a:focus,
+.footer a:hover,
+.footer a:focus {
+  color: #2196f3;
+  cursor: pointer;
 }
 .main-button {
   background-color: #2196f3;
@@ -69,19 +67,43 @@
   font-size: 16px;
   font-weight: 700;
 }
+.lorem-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+.lorem-text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.team-name {
+  font-weight: 500;
+  line-height: 1.188;
+}
+.team-job {
+  color: #757575;
+  line-height: 1.188;
+}
 .portfolio-button button {
   background-color: #f5f4fa;
-  font: "Roboto";
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
 }
 .portfolio-button button:hover,
 .portfolio-button button:focus {
   background-color: var(--button-hover-bg);
   color: #ffffff;
-  font: "Roboto";
   font-weight: 500;
   cursor: pointer;
+}
+.company {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+.company-type {
+  line-height: 1.88;
 }
 .contact a {
   color: #757575;
