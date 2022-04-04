@@ -7,10 +7,11 @@
   --main-text: #212121;
   --blue-elements: #2196f3;
   --grey-elements: #757575;
-  
+  --main-font: font-family: "Roboto";
+  --second-font: font-family: "Raleway";
 }
 .logo {
-  font: "Raleway";
+  font: var(--second-font);
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
@@ -36,7 +37,7 @@
   vertical-align: middle;
 }
 .menu {
-  font: "Roboto";
+  font: var(--main-font);
   font-weight: 500;
   font-size: 14px;
 }
@@ -72,7 +73,7 @@
 .main-button {
   background-color: var(--blue-elements);
   color: var(--main-bg);
-  font: "Roboto";
+  font: var(--main-font);
   font-size: 16px;
   font-weight: 700;
 }
@@ -139,7 +140,7 @@ ul {
   list-style-type: none;
 }
 body {
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-size: 16px;
   color: var(--main-text);
   background-color: var(--main-bg);
